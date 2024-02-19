@@ -6,6 +6,7 @@ package main
 import (
 	_ "embed"
 	"fmt"
+	"math/rand"
 	"os"
 	"strings"
 )
@@ -18,6 +19,8 @@ and store it in the string named "contentInAString"
 var contentInAString string
 
 func main() {
+	//channel := make(chan int)
+	//go fortune(channel)
 	var answer string //Create variable where answer of the user will be stored. It is initialized with a zero value here.
 	for {
 		fmt.Println("Would you like another fortune? Type yes or no") //Ask for user input
@@ -26,6 +29,7 @@ func main() {
 		if answerLowercase == "yes" {
 			fmt.Println("You answered yes.")
 			fortune()
+			//channel <- 1
 		} else if answerLowercase == "no" {
 			fmt.Println("You answered no. Program terminated.")
 			os.Exit(0) //This function terminates the program. The parameter 0 signals an exit with no error.
@@ -35,5 +39,7 @@ func main() {
 
 func fortune() {
 	contentInASlice := strings.Split(contentInAString, "%%") //Creates a slice of strings separated by the "%%" symbols
-	fmt.Print(contentInASlice[0])
+	numberOfFortunes := len(contentInASlice)
+	randomnumber := rand.Intn(numberOfFortunes)
+	fmt.Println(contentInASlice[randomnumber])
 }
