@@ -1,0 +1,8 @@
+For this Project 1 assignment, I did not use any code directly copied and pasted from any source that was not already
+mentioned in the josemataProject1.go file.
+
+However, knowledge, tips, and other useful information about Go was obtained from the following sources, among others:
+
+Go by Example: If/Else: https://gobyexample.com/if-else
+Forever: https://go.dev/tour/flowcontrol/4
+https://www.tutorialspoint.com/golang-program-to-compare-two-strings-by-ignoring-case: https://www.tutorialspoint.com/golang-program-to-compare-two-strings-by-ignoring-case
