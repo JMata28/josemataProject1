@@ -3,6 +3,30 @@ mentioned in the josemataProject1.go file.
 
 However, knowledge, tips, and other useful information about Go was obtained from the following sources, among others:
 
+Learning Go, 2nd Edition, Jon Bodner, Published by O'Reilly Media, Inc.
+Powerpoint presentations and notes from the COMP510 lectures.
+Standard library: https://pkg.go.dev/std
 Go by Example: If/Else: https://gobyexample.com/if-else
 Forever: https://go.dev/tour/flowcontrol/4
-https://www.tutorialspoint.com/golang-program-to-compare-two-strings-by-ignoring-case: https://www.tutorialspoint.com/golang-program-to-compare-two-strings-by-ignoring-case
+Golang Program to compare two strings by ignoring case: https://www.tutorialspoint.com/golang-program-to-compare-two-strings-by-ignoring-case: https://www.tutorialspoint.com/golang-program-to-compare-two-strings-by-ignoring-case
+Exit an app in Go: https://gosamples.dev/exit/
+How to Split a String in Golang?: https://www.geeksforgeeks.org/how-to-split-a-string-in-golang/
+Go by Example: Embed Directive: https://gobyexample.com/embed-directive
+embed: https://pkg.go.dev/embed
+Go by Example: Channel Directions: https://gobyexample.com/channel-directions
+Go by Example: Goroutines: https://gobyexample.com/goroutines
+rand: https://pkg.go.dev/math/rand#Rand.Intn
+Generating Random Numbers in Golang: https://www.geeksforgeeks.org/generating-random-numbers-in-golang/
+How to generate random numbers in Go language: https://www.educative.io/answers/how-to-generate-random-numbers-in-go-language
+Slice length and capacity: https://go.dev/tour/moretypes/11
+Learning Golang: Introduction to Concurrency Patterns, goroutines and channels: https://www.youtube.com/watch?v=-xEycsoGoA8
+Advanced Golang: Channels, Context and Interfaces Explained: https://www.youtube.com/watch?v=VkGQFFl66X4
+Concurrency in Go: https://www.youtube.com/watch?v=LvgVSSpwND8
+
+Concepts studied but not necessarily implemented in the final version of this assignment:
+How to wait for a goroutine to finish in Golang?: https://www.tutorialspoint.com/how-to-wait-for-a-goroutine-to-finish-in-golang
+How to use Sleep function in Golang: https://golangdocs.com/sleep-function-in-golang
+time: https://pkg.go.dev/time#Sleep
+Defer: https://go.dev/tour/flowcontrol/12
+Go by Example: Defer: https://gobyexample.com/defer
+Defer in Go - Beginner's Guide to Go: https://www.youtube.com/watch?v=t4Ps0yXEdXM
